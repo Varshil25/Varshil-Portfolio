@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 4000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        fill: #021b8d;
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path id="SVGID" class="cls-1" d="M1906.65,1501.22l-279.14,643.41-268.09-643.41h-304.97l426.1,997.56,294.22-.73,319.49-774.52h390.98c116.86,0,175.28,54.15,175.28,146.78s-58.42,145.36-175.28,145.36h-438.93v483.1h282.17v-260.79h173.86c272.19,0,443.2-141.09,443.2-367.67s-171.01-369.1-443.2-369.1h-595.69Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="505.13" y1="2497.77" x2="3696.05" y2="1435.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0049e7"/>
+      <stop offset="1" stop-color="#16ea9e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-397.74" y1="3050.75" x2="1033.02" y2="1462.62" gradientTransform="translate(1381 -107.62)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="1480.56" y="1501.22" width="705.42" height="996.83" maskUnits="userSpaceOnUse">
+      <rect class="cls-4" x="1480.56" y="1501.22" width="705.42" height="996.83"/>
+    </mask>
+    <linearGradient id="linear-gradient-3" x1="2261.65" y1="795.12" x2="401.47" y2="2877.18" gradientTransform="translate(1414.94 -107.58)" xlink:href="#linear-gradient-2"/>
+    <mask id="mask-1" x="2046.31" y="1742.42" width="699.86" height="756.36" maskUnits="userSpaceOnUse">
+      <rect class="cls-3" x="2046.31" y="1742.42" width="699.86" height="756.36"/>
+    </mask>
+  </defs>
+  <g class="cls-8">
+    <rect class="cls-5" x="1054.45" y="1501.22" width="1891.09" height="997.56"/>
+  </g>
+  <g class="cls-2">
+    <path class="cls-7" d="M1480.56,2497.32c38.73-92.96,86.92-208.62,144.58-346.99,74.46-178.73,175.48-394.61,281.52-649.11h279.32l-411.2,996.83-294.22-.73Z"/>
+  </g>
+  <g class="cls-6">
+    <path class="cls-7" d="M2426.84,2015.68h-380.52v483.1h282.17v-260.79h173.86c140.01-7.41,248.33-125.49,243.68-265.61-3.49-104.6-68.97-192.77-160.28-229.96,49.85,23.3,74.78,67.39,74.78,127.89,0,91.21-58.42,145.36-175.28,145.36h-58.41Z"/>
+  </g>
+</svg>
