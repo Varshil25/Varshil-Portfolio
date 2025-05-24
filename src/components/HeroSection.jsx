@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollDownButton } from "./ScrollDownButton";
-import { FaEnvelope, FaFolderOpen } from 'react-icons/fa'; // import any icons you want
+import {  FaFolderOpen } from 'react-icons/fa'; // import any icons you want
 
 
 const phrases = [
@@ -96,13 +96,6 @@ export const HeroSection = () => {
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-3 flex flex-wrap justify-center gap-4">
-            <a
-              href="#contact"
-              className="cosmic-button flex items-center gap-2"
-            >
-              <FaEnvelope className="text-lg" />
-              Get In Touch
-            </a>
             <a
               href="#projects"
               className="cosmic-button flex items-center gap-2"
