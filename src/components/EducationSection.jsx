@@ -2,7 +2,7 @@ import { Cloud, Download, Calendar } from "lucide-react";
 
 export const EducationSection = () => {
     return (
-        <section className="py-20 relative overflow-hidden bg-white dark:bg-background">
+        <section id="education" className="py-20 relative overflow-hidden bg-white dark:bg-background">
             <div className="container mx-auto max-w-5xl animate-fade-in-delay-1">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-glow">
                     <span className="text-primary">Education</span>
