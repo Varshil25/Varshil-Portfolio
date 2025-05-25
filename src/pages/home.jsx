@@ -3,7 +3,7 @@ import { BackgroundEffects } from "../components/BackgroundEffects"
 import NavBar from "../components/NavBar"
 import { HeroSection } from "../components/HeroSection"
 import { AboutSection } from "../components/AboutSection"
-import { EducationSection } from "../components/EducationSection"
+// import { EducationSection } from "../components/EducationSection"
 
 export const Home = () => {
     return (
@@ -28,7 +28,7 @@ export const Home = () => {
         <main>
             <HeroSection />
             <AboutSection />
-            <EducationSection />
+            {/* <EducationSection /> */}
         </main>
 
 
