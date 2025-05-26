@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import Logo from "../assets/logo-varshil.svg";
+import Logo from "../assets/Artboard 2 1.svg";
 import { ThemeToggle } from "./ThemeToggle";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
