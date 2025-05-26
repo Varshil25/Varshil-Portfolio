@@ -77,7 +77,7 @@ export const SkillSection = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-glow">
           <span className="text-primary"> My Skills </span>
         </h2>
-        <hr className="border-t-2 border-gray-300 w-24 mx-auto mb-12" />
+        <hr className="border-t-2 border-gray-300 w-52 mx-auto mb-12" />
 
         <div className="mb-10 flex flex-wrap justify-center gap-4">
           {categories.map((category, key) => (

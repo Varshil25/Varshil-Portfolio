@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 const blobs = [
   {
     className: 'top-[-150px] left-[-150px] w-[400px] h-[400px]',
-    color: 'bg-purple-300',
+    color: 'bg-pink-300',
     blur: 'blur-3xl',
     opacity: 'opacity-40',
     animate: { x: [0, 30, -20, 0], y: [0, -20, 20, 0] },
   },
   {
     className: 'bottom-[-150px] right-[-150px] w-[400px] h-[400px]',
-    color: 'bg-green-200',
+    color: 'bg-green-300',
     blur: 'blur-3xl',
     opacity: 'opacity-30',
     animate: { x: [0, -20, 20, 0], y: [0, 30, -15, 0] },

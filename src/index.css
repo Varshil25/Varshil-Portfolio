@@ -161,3 +161,8 @@
   padding: 0;
   text-align: center;
 }
+
+/* Swiper Pagination Bullet Customization */
+.swiper-pagination-bullet {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+}
