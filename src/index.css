@@ -203,3 +203,33 @@
   background-color: #60a5fa;
   box-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
 }
+
+
+.animate [style*="--animate-fade-in"] {
+  animation-play-state: running;
+}
+
+.animate [style*="--animate-fade-in-delay-1"] {
+  animation-play-state: running;
+}
+
+.animate [style*="--animate-fade-in-delay-2"] {
+  animation-play-state: running;
+}
+
+.animate [style*="--animate-fade-in-delay-3"] {
+  animation-play-state: running;
+}
+
+.animate [style*="--animate-fade-in-delay-4"] {
+  animation-play-state: running;
+}
+
+/* Ensure animations are paused by default */
+[style*="--animate-fade-in"],
+[style*="--animate-fade-in-delay-1"],
+[style*="--animate-fade-in-delay-2"],
+[style*="--animate-fade-in-delay-3"],
+[style*="--animate-fade-in-delay-4"] {
+  animation-play-state: paused;
+}
