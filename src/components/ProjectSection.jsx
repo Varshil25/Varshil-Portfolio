@@ -175,11 +175,10 @@ export const ProjectSection = () => {
   return (
     <section id="projects" className="py-20 px-4 relative">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-5xl font-bold mb-1 text-center text-glow">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow">
           <span className="text-primary"> Projects </span>
         </h2>
-        <hr className="border-t-2 border-[#E5E7EB] w-46 mx-auto mb-12" />
-
+       
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}

@@ -49,16 +49,12 @@ export const ExperienceSection = () => {
     <section id="experience" className="py-20 px-4 relative" ref={sectionRef}>
       <div className="container mx-auto max-w-6xl">
         <h2
-          className="text-3xl md:text-5xl font-bold mb-1 text-center text-glow"
+          className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow"
           style={{ animation: 'var(--animate-fade-in)' }}
         >
           Work <span className="text-primary">Experience</span>
         </h2>
-        <hr
-          className="border-t-2 border-gray-300 w-96 mx-auto mb-12 opacity-0 transition-opacity duration-700"
-          style={{ animation: 'var(--animate-fade-in-delay-1)' }}
-        />
-
+       
         {/* Work Experience List */}
         <div className="space-y-6">
           {experiences.map((exp, index) => (

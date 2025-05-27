@@ -4,11 +4,10 @@ export const EducationSection = () => {
     return (
         <section id="education" className="py-20 relative overflow-hidden bg-white dark:bg-background">
             <div className="container mx-auto max-w-5xl animate-fade-in-delay-1">
-                <h2 className="text-3xl md:text-5xl font-bold mb-4 text-center text-glow">
+                <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow">
                     <span className="text-primary">Education</span>
                 </h2>
-                <hr className="border-t-2 border-[#E5E7EB] w-58 mx-auto mb-12 animate-fade-in-delay-2" />
-
+                
                 <div className="relative">
                     {/* Curved Path Line SVG */}
                     <svg className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0 hidden md:block" height="100%" width="4" viewBox="0 0 4 800" preserveAspectRatio="none">

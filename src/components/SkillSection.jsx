@@ -74,10 +74,9 @@ export const SkillSection = () => {
   return (
     <section id="skills" className="py-20 px-4 relative">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-glow">
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-glow">
           My <span className="text-primary"> Skills </span>
         </h2>
-        <hr className="border-t-2 border-gray-300 w-52 mx-auto mb-12" />
 
         <div className="mb-10 flex flex-wrap justify-center gap-4">
           {categories.map((category, key) => (
