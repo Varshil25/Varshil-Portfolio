@@ -48,30 +48,24 @@ const Footer = () => (
       padding: "1.5rem 0",
       textAlign: "center",
       marginTop: "2rem",
-      position: "relative", // important for blobs
-      overflow: "hidden",   // hides blobs overflowing the container
     }}
   >
-    <BackgroundEffects /> {/* Animated background blobs */}
-
-    <div style={{ position: "relative", zIndex: 10 }}>
-      <div style={{ marginBottom: "0.5rem" }}>
-        &copy; {new Date().getFullYear()} Varshil. All rights reserved.
-      </div>
-      <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem" }}>
-        {socialLinks.map(({ href, label, icon }) => (
-          <a
-            key={label}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={label}
-            style={{ color: "#fff", transition: "color 0.2s" }}
-          >
-            {icon}
-          </a>
-        ))}
-      </div>
+    <div style={{ marginBottom: "0.5rem" }}>
+      &copy; {new Date().getFullYear()} Varshil. All rights reserved.
+    </div>
+    <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem" }}>
+      {socialLinks.map(({ href, label, icon }) => (
+        <a
+          key={label}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={label}
+          style={{ color: "#fff", transition: "color 0.2s" }}
+        >
+          {icon}
+        </a>
+      ))}
     </div>
   </footer>
 );
