@@ -8,6 +8,9 @@ import { SkillSection } from "../components/SkillSection"
 import { ProjectSection } from "../components/ProjectSection"
 import { ExperienceSection } from "../components/ExperienceSection"
 import { CertificationSection } from "../components/CertificationSection"
+import { ContactSection } from "../components/ContactSection"
+import { Contact } from "lucide-react"
+import Footer from "../components/Footer"
 
 export const Home = () => {
     return (
@@ -37,11 +40,14 @@ export const Home = () => {
             <ProjectSection />
             <ExperienceSection />
             <CertificationSection />
+            <ContactSection />
         </main>
 
 
 
         { /* Footer */ }
+        <Footer />
+        
         </div>
     )
 }
